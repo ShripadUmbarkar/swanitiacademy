@@ -1,0 +1,147 @@
+.icon {
+  height: 747px;
+  margin: auto;
+  width: 85%;
+}
+
+.main-button {
+  position: absolute;
+  z-index: 1;
+  top: 630px;
+}
+
+#contact {
+  text-align: center;
+}
+
+.cimp {
+  text-align: center;
+  margin: auto;
+}
+
+.down-content {
+  height: 200px;
+  width: 60%;
+  margin: auto;
+}
+
+p {
+  text-align: justify;
+}
+
+.cprt {
+  text-align: center;
+}
+
+.imgs {
+  height: 300px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.courseimg {
+  width: 60%;
+  height: 180px;
+  margin: auto;
+}
+
+.imgb {
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.imgf {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.add {
+  text-align: center;
+}
+
+.small {
+  text-transform: lowercase;
+  font-size: 15px;
+}
+
+.design {
+  color: #f5a425;
+}
+
+.design:hover {
+  color: #fff;
+}
+
+.yellow {
+  color: #f5a425;
+}
+
+.from {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .icon {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 85px;
+  }
+
+  .main-button {
+    position: relative;
+    top: -100px;
+  }
+
+  .imgs {
+    height: 150px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  .cimp {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+
+  .imgb {
+    height: 200px;
+    width: 200px;
+  }
+
+  .down-content {
+    width: 100%;
+  }
+
+  .courseimg {
+    width: 100%;
+  }
+
+  .add {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .from {
+    width: 100%;
+  }
+
+  .info {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .sir {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
